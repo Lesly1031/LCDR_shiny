@@ -69,7 +69,7 @@ enrich_res_tb = function(input,output,session,deg_data,study_type){
      ID = unique(ID)
     
      
-     enriched = fread("F:/Projects/Brooke/lung_repo/Shiny/Shiny_Github/Shiny_uploadData/kegg_metabolites_processed.csv")
+     enriched = fread("Shiny_uploadData/kegg_metabolites_processed.csv")
      enrich = data.frame(enriched)
      enrich = subset(enrich,enrich$Term!="")
      filter_genes <- function(gene_string, genes_to_keep) {
