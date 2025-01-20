@@ -1,0 +1,11 @@
+SampleID,Sex,Experimental_Group,Genotype,Histology
+Sample1,Male,Treatment,WT,Normal
+Sample2,Male,Treatment,Mutant,Abnormal
+Sample3,Male,Treatment,WT,Severe
+Sample4,Female,Control,WT,Abnormal
+Sample5,Male,Treatment,WT,Normal
+Sample6,Female,Control,WT,Severe
+Sample7,Female,Treatment,Mutant,Severe
+Sample8,Female,Control,Mutant,Normal
+Sample9,Male,Control,WT,Severe
+Sample10,Male,Control,Mutant,Abnormal
