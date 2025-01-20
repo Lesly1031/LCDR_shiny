@@ -31,14 +31,14 @@ package.check <- lapply(packages, FUN = function(x) {
   library(x, character.only = TRUE)
 })
 
-source("F:/Projects/Brooke/lung_repo/Shiny/Shiny_Github/Shiny_uploadData/sample_table.R")
-source("F:/Projects/Brooke/lung_repo/Shiny/Shiny_Github/Shiny_uploadData/pca_plot.R")
-source("F:/Projects/Brooke/lung_repo/Shiny/Shiny_Github/Shiny_uploadData/DEG_table.R")
-source("F:/Projects/Brooke/lung_repo/Shiny/Shiny_Github/Shiny_uploadData/DEG_fig.R")
-source("F:/Projects/Brooke/lung_repo/Shiny/Shiny_Github/Shiny_uploadData/heat_deg.R")
-source("F:/Projects/Brooke/lung_repo/Shiny/Shiny_Github/Shiny_uploadData/heat_kegg.R")
-source("F:/Projects/Brooke/lung_repo/Shiny/Shiny_Github/Shiny_uploadData/box_plot.R")
-source("F:/Projects/Brooke/lung_repo/Shiny/Shiny_Github/Shiny_uploadData/scatter_plot.R")
+source("/Shiny_uploadData/sample_table.R")
+source("/pca_plot.R")
+source("/DEG_table.R")
+source("/DEG_fig.R")
+source("/heat_deg.R")
+source("/heat_kegg.R")
+source("/box_plot.R")
+source("/scatter_plot.R")
 
 
 
