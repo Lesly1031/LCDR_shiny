@@ -27,7 +27,6 @@ library(reshape2)
 library(BSgenome.Mmusculus.UCSC.mm10)
 library(rhandsontable)
 
-source("/venn_diag.R")
 source("/peak_distribution.R")
 source("/peak_heat.R")
 source("/peak_meta.R")
