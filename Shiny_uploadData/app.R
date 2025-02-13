@@ -363,7 +363,7 @@ options(shiny.maxRequestSize=30*1024^2)
 server <- function(input, output,session) { 
   
   folder_direct <- reactive({
-    file = "F:/Projects/Brooke/lung_repo/Shiny/Shiny_Github/Shiny_uploadData/"
+    file = "/Shiny_uploadData/"
   })
   
 #------------------------------------------------------------------------------
